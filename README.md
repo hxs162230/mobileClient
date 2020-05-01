@@ -55,7 +55,7 @@ The above `F: \ vuejs-project \ dist;` should be the dist directory of the front
 5. Browser access: `http: //127.0.0.1 / # / order /`, this is a blank interface, press F2 to open the browser ’s developer tools, enter `document.cookie = in the browser console 'openid = abc123'`
 Add cookies to the domain name. Visit again: `http: // 127.0.0.1`, then you can access the front-end interface. as follows:
 
-! [] (https://i.postimg.cc/MG0S8fcR/weixin.png)
+![] (https://i.postimg.cc/MG0S8fcR/weixin.png)
 
 6. For the internal access of the WeChat public account on the mobile terminal, an intranet penetration tool is also used. Since the WeChat cannot directly access the ip address, the domain name is also purchased, and it involves very complicated WeChat debugging. It will not be introduced here. You can use postman to simulate WeChat ordering. For the access interface, see the class beginning with Buyer under the controller package.
 7. If you want to check the access effect of WeChat, you can visit this link on the WeChat client: `http: // sell.springboot.cn /`. (Note that this is a demo of the project that Brother has launched)
